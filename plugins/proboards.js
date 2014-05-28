@@ -1,7 +1,6 @@
 importPackage(Packages.com.cookiecadger);
 
-var description;
-var sessionUri;
+var description, sessionUri;
 
 function processRequest(host, uri, userAgent, accept, cookies)
 {
