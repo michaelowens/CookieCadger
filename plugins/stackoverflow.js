@@ -9,8 +9,7 @@ function processRequest(host, uri, userAgent, accept, cookies)
     description = null;
     sessionUri = null;
 
-    if ((host === 'stackoverflow.com' || host == 'www.stackoverflow.com') &&
-        cookies.indexOf('usr') != -1)
+    if ((host === 'stackoverflow.com' || host == 'www.stackoverflow.com') && cookies.indexOf('usr') != -1)
     {
         pageContent = Packages.com.cookiecadger.Utils.readUrl('http://' + host, userAgent, accept, cookies);
 
